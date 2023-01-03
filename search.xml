@@ -5,7 +5,7 @@
     <entry>
       <title>finalTest</title>
       <link href="/my_blog/2023/01/02/finalTest/"/>
-      <content type="html"><![CDATA[<p><img src="/my_blog/assets/05.png" alt="PIC"><br>$$<br>f(x) &#x3D; \sum_{i&#x3D;1}^{n}x_i^2<br>$$</p>]]></content>
+      <content type="html"><![CDATA[<p>Here is a simple test for adding pictures inside blog.</p><span id="more"></span><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello world&quot;</span>)</span><br></pre></td></tr></table></figure><p><img src="/my_blog/assets/fold1/05.png" alt="PIC"><br>$$<br>f(x) &#x3D; \sum_{i&#x3D;1}^{n}x_i^2<br>$$</p>]]></content>
       
       
     </entry>
