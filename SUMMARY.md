@@ -9,5 +9,6 @@
     * [第4节：行](Chapter1/行.md)
 * [第二章](Chapter2/README.md)
 * [第三章](Chapter3/README.md)
+    * [第1节：程序的机器级表示](Chapter3/程序的机器级表示.md)
 * [第四章](Chapter4/README.md)
 
