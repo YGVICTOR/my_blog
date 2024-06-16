@@ -10,5 +10,6 @@
 * [第二章](Chapter2/README.md)
 * [第三章](Chapter3/README.md)
     * [第1节：程序的机器级表示](Chapter3/程序的机器级表示.md)
+    * [第2节：寄存器与数据传送指令](Chapter3/寄存器与数据传送指令.md)
 * [第四章](Chapter4/README.md)
 
