@@ -19,7 +19,8 @@
         "code",
         "page-toc-button" ,
         "tbfed-pagefooter",
-         "rss" 
+         "rss",
+         "mathjax-pro"
          
     ],
     "pluginsConfig": {
