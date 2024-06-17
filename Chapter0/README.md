@@ -173,7 +173,7 @@ $ gitbook serve
 
 ![image-20240617223928351](.\pic\image-20240617223928351.png)
 
-![image-20240617224102004](C:\Users\53584\AppData\Roaming\Typora\typora-user-images\image-20240617224102004.png)
+![image-20240617224102004](.\pic\image-20240617224102004.png)
 
 将下面三行代码注释掉即可
 
@@ -204,4 +204,3 @@ $ npm install gitbook-plugin-mathjax
 # 最终更新gitbook
 $ gitbook install ./
 ```
-
