@@ -167,3 +167,41 @@ $ gitbook install
 $ gitbook serve
 ```
 
+### 常见错误
+
+1. **安装gitbook init和if (cb) cb.apply(this, arguments)，cb.apply is not a function**
+
+![image-20240617223928351](.\pic\image-20240617223928351.png)
+
+![image-20240617224102004](C:\Users\53584\AppData\Roaming\Typora\typora-user-images\image-20240617224102004.png)
+
+将下面三行代码注释掉即可
+
+```js
+  fs.stat = statFix(fs.stat)
+  fs.fstat = statFix(fs.fstat)
+  fs.lstat = statFix(fs.lstat)
+```
+
+2. **安装mathjax-pro插件**
+
+```shell
+# 切成v10.24.1，必须是10.x，再高报错
+$ nvm install v10.24.1
+$ nvm use 10.24.1
+
+$ nvm alias default v10.24.1
+
+# 安装gitbook
+$ npm install gitbook-cli -g
+
+# 安装mathjax
+$ npm install -g mathjax@2.7.6
+
+# 安装mathjax plugin，这步最重要！！！，之前gitbook install一直失败
+$ npm install gitbook-plugin-mathjax
+
+# 最终更新gitbook
+$ gitbook install ./
+```
+
