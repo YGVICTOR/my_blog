@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[标题]]></title>
+        <description><![CDATA[描述信息]]></description>
+        <link>https://xxx.xxx.xxx/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 21 Jun 2024 16:24:20 GMT</lastBuildDate>
+        <atom:link href="https://xxx.xxx.xxx/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[作者]]></author>
+        <item>
+            <title><![CDATA[Introduction]]></title>
+            <link>https://xxx.xxx.xxx/</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第零章]]></title>
+            <description><![CDATA[gitbook发布github pages教程]]></description>
+            <link>https://xxx.xxx.xxx/Chapter0/README.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter0/README.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第一章]]></title>
+            <link>https://xxx.xxx.xxx/Chapter1/README.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter1/README.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第1节：衣]]></title>
+            <link>https://xxx.xxx.xxx/Chapter1/衣.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter1/衣.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第2节：食]]></title>
+            <link>https://xxx.xxx.xxx/Chapter1/食.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter1/食.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第3节：住]]></title>
+            <link>https://xxx.xxx.xxx/Chapter1/住.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter1/住.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第4节：行]]></title>
+            <link>https://xxx.xxx.xxx/Chapter1/行.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter1/行.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第二章]]></title>
+            <link>https://xxx.xxx.xxx/Chapter2/README.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter2/README.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第三章 程序的机器级表示]]></title>
+            <description><![CDATA[本小节内容来自：视频讲解]]></description>
+            <link>https://xxx.xxx.xxx/Chapter3/README.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter3/README.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[Chapter 3: Machine-Level Representation of Programs(程序的机器级表示)]]></description>
+            <link>https://xxx.xxx.xxx/Chapter3/程序的机器级表示.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter3/程序的机器级表示.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[在讲述第一章计算机系统漫游时，提到过计算机系统中信息的存储部件，相对于内存和硬盘，大家可能对寄存器会陌生一些，接下来我们详细介绍一下寄存器的相关知识。]]></description>
+            <link>https://xxx.xxx.xxx/Chapter3/寄存器与数据传送指令.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter3/寄存器与数据传送指令.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[上一节我们讲述了数据传送指令的相关知识，本期先从计算机系统的角度，看一下程序执行时数据传送的情况。]]></description>
+            <link>https://xxx.xxx.xxx/Chapter3/栈与数据传送指令.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter3/栈与数据传送指令.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[在上一小节，我们讲述了数据传送指令的相关知识，本节我们来看一下有关算术和逻辑操作的指令。]]></description>
+            <link>https://xxx.xxx.xxx/Chapter3/算术和逻辑运算指令.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter3/算术和逻辑运算指令.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第四章]]></title>
+            <link>https://xxx.xxx.xxx/Chapter4/README.html</link>
+            <guid isPermaLink="true">https://xxx.xxx.xxx/Chapter4/README.html</guid>
+            <dc:creator><![CDATA[作者]]></dc:creator>
+        </item>
+    </channel>
+</rss>

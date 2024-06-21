@@ -1,0 +1,515 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第3节：栈与数据传送指令 · 标题</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="作者">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="算术和逻辑运算指令.html" />
+    
+    
+    <link rel="prev" href="寄存器与数据传送指令.html" />
+    
+
+    <link href="https://xxx.xxx.xxx/rss" title="标题" rel="alternate" type="application/rss+xml" />
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Chapter0/">
+            
+                <a href="../Chapter0/">
+            
+                    
+                    第零章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Chapter1/">
+            
+                <a href="../Chapter1/">
+            
+                    
+                    第一章
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chapter1/衣.html">
+            
+                <a href="../Chapter1/衣.html">
+            
+                    
+                    第1节：衣
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chapter1/食.html">
+            
+                <a href="../Chapter1/食.html">
+            
+                    
+                    第2节：食
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chapter1/住.html">
+            
+                <a href="../Chapter1/住.html">
+            
+                    
+                    第3节：住
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Chapter1/行.html">
+            
+                <a href="../Chapter1/行.html">
+            
+                    
+                    第4节：行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Chapter2/">
+            
+                <a href="../Chapter2/">
+            
+                    
+                    第二章
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第三章
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="程序的机器级表示.html">
+            
+                <a href="程序的机器级表示.html">
+            
+                    
+                    第1节：程序的机器级表示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="寄存器与数据传送指令.html">
+            
+                <a href="寄存器与数据传送指令.html">
+            
+                    
+                    第2节：寄存器与数据传送指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.3" data-path="栈与数据传送指令.html">
+            
+                <a href="栈与数据传送指令.html">
+            
+                    
+                    第3节：栈与数据传送指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="算术和逻辑运算指令.html">
+            
+                <a href="算术和逻辑运算指令.html">
+            
+                    
+                    第4节：算术和逻辑运算指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Chapter4/">
+            
+                <a href="../Chapter4/">
+            
+                    
+                    第四章
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第3节：栈与数据传送指令</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x4E0A;&#x4E00;&#x8282;&#x6211;&#x4EEC;&#x8BB2;&#x8FF0;&#x4E86;&#x6570;&#x636E;&#x4F20;&#x9001;&#x6307;&#x4EE4;&#x7684;&#x76F8;&#x5173;&#x77E5;&#x8BC6;&#xFF0C;&#x672C;&#x671F;&#x5148;&#x4ECE;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x7684;&#x89D2;&#x5EA6;&#xFF0C;&#x770B;&#x4E00;&#x4E0B;&#x7A0B;&#x5E8F;&#x6267;&#x884C;&#x65F6;&#x6570;&#x636E;&#x4F20;&#x9001;&#x7684;&#x60C5;&#x51B5;&#x3002;</p>
+<p><img src="pic/image-20240619230121653.png" alt="image-20240619230121653"></p>
+<p><img src="pic/image-20240619230717199.png" alt="image-20240619230717199"></p>
+<p>&#x5728;&#x7B2C;&#x4E00;&#x7AE0;&#xFF0C;&#x6211;&#x4EEC;&#x63D0;&#x5230;&#x8FC7;helloworld&#x7A0B;&#x5E8F;&#x52A0;&#x8F7D;&#x8FD0;&#x884C;&#x7684;&#x5927;&#x81F4;&#x8FC7;&#x7A0B;&#x3002;&#x6700;&#x521D;&#xFF0C;&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;&#x662F;&#x4FDD;&#x5B58;&#x5728;&#x786C;&#x76D8;&#x4E0A;&#xFF0C;&#x901A;&#x8FC7;shell&#x7A0B;&#x5E8F;&#xFF0C;&#x5C06;&#x53EF;&#x6267;&#x884C;&#x7A0B;&#x5E8F;&#x4ECE;&#x786C;&#x76D8;&#x52A0;&#x8F7D;&#x5230;&#x5185;&#x5B58;&#x3002;&#x6B64;&#x65F6;&#xFF0C;&#x7A0B;&#x5E8F;&#x6307;&#x4EE4;&#x4EE5;&#x53CA;&#x6570;&#x636E;&#x90FD;&#x4FDD;&#x5B58;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#xFF0C;CPU&#x8981;&#x6267;&#x884C;&#x7A0B;&#x5E8F;&#xFF0C;&#x9700;&#x8981;&#x4ECE;&#x5185;&#x5B58;&#x4E2D;&#x8BFB;&#x53D6;&#x6307;&#x4EE4;&#x548C;&#x6570;&#x636E;&#x3002;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x5728;&#x4E00;&#x4E9B;&#x7A0B;&#x5E8F;&#x7684;&#x6267;&#x884C;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x9700;&#x8981;&#x5728;CPU&#x7684;&#x5185;&#x5B58;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x9891;&#x7E41;&#x7684;&#x6570;&#x636E;&#x5B58;&#x53D6;&#x3002;&#x4F8B;&#x5982;&#xFF0C;CPU&#x6267;&#x884C;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x52A0;&#x6CD5;&#x64CD;&#x4F5C;$ c = a + b$ , &#x90A3;&#x4E48;&#x9996;&#x5148;&#x901A;&#x8FC7;CPU&#x6267;&#x884C;&#x6570;&#x636E;&#x4F20;&#x9001;&#x6307;&#x4EE4;&#x5C06;a&#x548C;b&#x7684;&#x503C;&#x4ECE;&#x5185;&#x5B58;&#x8BFB;&#x53D6;&#x5230;&#x5BC4;&#x5B58;&#x5668;&#x5185;&#xFF0C;&#x5BC4;&#x5B58;&#x5668;&#x5C31;&#x662F;CPU&#x5185;&#x7684;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x90E8;&#x4EF6;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x662F;&#x5BB9;&#x91CF;&#x6BD4;&#x8F83;&#x5C0F;&#x3002;&#x6211;&#x4EEC;&#x4EE5;x86-64&#x5904;&#x7406;&#x5668;&#x4E3A;&#x4F8B;</p>
+<p><img src="pic/image-20240619231301214.png" alt="image-20240619231301214" style="zoom:67%;"></p>
+<p>&#x5BC4;&#x5B58;&#x5668;<code>rax</code>&#x7684;&#x5927;&#x5C0F;&#x662F;64&#x4E2A;&#x6BD4;&#x7279;&#x4F4D;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;8&#x4E2A;&#x5B57;&#x8282;&#xFF0C;&#x5982;&#x679C;&#x53D8;&#x91CF;a&#x662F;long&#x7C7B;&#x578B;&#xFF0C;&#x9700;&#x8981;&#x5360;&#x7528;8&#x4E2A;&#x5B57;&#x8282;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x5BC4;&#x5B58;&#x5668;<code>rax</code>&#x5168;&#x90E8;&#x7684;&#x6570;&#x636E;&#x4F4D;&#x90FD;&#x7528;&#x6765;&#x4FDD;&#x5B58;&#x53D8;&#x91CF;a,&#x5982;&#x679C;&#x53D8;&#x91CF;a&#x662F;int&#x7C7B;&#x578B;&#xFF0C;&#x90A3;&#x4E48;&#x53EA;&#x9700;&#x8981;&#x7528;4&#x4E2A;&#x5B57;&#x8282;&#x6765;&#x5B58;&#x50A8;&#x8BE5;&#x53D8;&#x91CF;&#xFF0C;&#x90A3;&#x4E48;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x7528;&#x5230;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4F4E;32&#x4F4D;&#x5C31;&#x591F;&#x4E86;&#xFF0C;</p>
+<p><img src="pic/image-20240619231433616.png" alt="image-20240619231433616" style="zoom:67%;"></p>
+<p>&#x5982;&#x679C;&#x53D8;&#x91CF;a&#x662F;short&#x7C7B;&#x578B;&#xFF0C;&#x5219;&#x53EA;&#x9700;&#x8981;&#x7528;&#x5230;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4F4E;16&#x4F4D;&#xFF0C;</p>
+<p><img src="pic/image-20240619231531323.png" alt="image-20240619231531323" style="zoom:67%;"></p>
+<p>&#x5BF9;&#x4E8E;&#x5BC4;&#x5B58;&#x5668;<code>rax</code>,&#x5982;&#x679C;&#x4F7F;&#x7528;&#x5168;&#x90E8;&#x7684;64&#x4F4D;&#xFF0C;&#x7528;&#x7B26;&#x53F7;<code>%rax</code>&#x6765;&#x8868;&#x793A;&#xFF0C;&#x5982;&#x679C;&#x53EA;&#x7528;&#x5230;&#x4F4E;32&#x4F4D;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x7B26;&#x53F7;<code>%eax</code>&#x6765;&#x8868;&#x793A;&#xFF0C;&#x5BF9;&#x4E8E;&#x4F4E;16&#x4F4D;&#x548C;&#x4F4E;8&#x4F4D;&#xFF0C;&#x5219;&#x5206;&#x522B;&#x7528;<code>%ax</code>&#x548C;<code>%al</code>&#x6765;&#x8868;&#x793A;&#xFF0C;&#x867D;&#x7136;&#x4F7F;&#x7528;&#x4E86;&#x4E0D;&#x540C;&#x7684;&#x8868;&#x793A;&#x7B26;&#x53F7;&#xFF0C;&#x4F46;&#x5B9E;&#x9645;&#x4E0A;&#x4EC5;&#x4EC5;&#x53EA;&#x662F;&#x9488;&#x5BF9;&#x540C;&#x4E00;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4E0D;&#x540C;&#x6570;&#x4F4D;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;&#x5904;&#x7406;&#x5668;&#x5B8C;&#x6210;&#x52A0;&#x6CD5;&#x8FD0;&#x7B97;&#x4E4B;&#x540E;&#xFF0C;&#x518D;&#x901A;&#x8FC7;&#x4E00;&#x6761;&#x6570;&#x636E;&#x4F20;&#x9001;&#x6307;&#x4EE4;&#x5C06;&#x8BA1;&#x7B97;&#x7ED3;&#x679C;&#x4FDD;&#x5B58;&#x5230;&#x5185;&#x5B58;&#x4E2D;&#x3002;&#x6B63;&#x662F;&#x56E0;&#x4E3A;&#x6570;&#x636E;&#x4F20;&#x9001;&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x4E2D;&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x9891;&#x7E41;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x6240;&#x4EE5;&#x4E86;&#x89E3;&#x4E00;&#x4E0B;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x7684;&#x6307;&#x4EE4;&#x5BF9;&#x7406;&#x89E3;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x4F1A;&#x6709;&#x5F88;&#x5927;&#x7684;&#x5E2E;&#x52A9;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x770B;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x4F20;&#x9001;&#x7684;&#x4EE3;&#x7801;&#x5B9E;&#x4F8B;&#x3002;</p>
+<pre><code class="lang-C"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">long</span> a = <span class="hljs-number">4</span>;
+    <span class="hljs-keyword">long</span> b = exchange(&amp;a,<span class="hljs-number">3</span>);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;a = %ld, b = %ld \n&quot;</span>,a,b);
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">long</span> <span class="hljs-title">exchange</span><span class="hljs-params">(<span class="hljs-keyword">long</span> *xp, <span class="hljs-keyword">long</span> y)</span></span>{
+    <span class="hljs-keyword">long</span> x = *xp;
+    *xp = y;
+    <span class="hljs-keyword">return</span> x;
+}
+</code></pre>
+<p><code>main</code>&#x51FD;&#x6570;&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;&#x53D8;&#x91CF;a&#xFF0C;&#x5E76;&#x4E14;&#x8D4B;&#x503C;&#x4E3A;4&#xFF0C;&#x968F;&#x540E;&#x8C03;&#x7528;&#x4E86;<code>exchange</code>&#x51FD;&#x6570;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x6267;&#x884C;&#x8FD4;&#x56DE;&#x540E;&#xFF0C;&#x53D8;&#x91CF;a&#x7684;&#x503C;&#x4F1A;&#x66FF;&#x6362;&#x4E3A;3&#xFF0C;&#x53D8;&#x91CF;b&#x5C06;&#x4FDD;&#x5B58;&#x53D8;&#x91CF;a&#x539F;&#x6765;&#x7684;&#x503C;4</p>
+<pre><code class="lang-shell">$ linux &gt; a = 3, b= 4
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x91CD;&#x70B9;&#x770B;&#x4E00;&#x4E0B;&#x51FD;&#x6570;<code>exchange</code>&#x5BF9;&#x5E94;&#x7684;&#x6C47;&#x7F16;&#x6307;&#x4EE4;</p>
+<pre><code class="lang-shell">exchange:
+    movq (%rdi), %rax
+    movq %rsi, (%rdi)
+    ret
+</code></pre>
+<p>&#x4ECE;&#x6C47;&#x7F16;&#x7684;&#x89D2;&#x5EA6;&#x770B;&#xFF0C;<code>exchange</code>&#x5C06;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x5730;&#x5740;&#x5B58;&#x53D6;&#x7684;&#x503C;&#x8FD4;&#x56DE;&#xFF0C;&#x653E;&#x5165;<code>%rax</code>&#x5BC4;&#x5B58;&#x5668;&#xFF1B;&#x7136;&#x540E;&#x5C06;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x503C;&#x590D;&#x5236;&#x5230;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x90A3;&#x4E2A;&#x5730;&#x5740;&#x91CC;&#xFF1B;</p>
+<p>&#x51FD;&#x6570;<code>exchange</code>&#x7531;&#x4E09;&#x6761;&#x6307;&#x4EE4;&#x5B9E;&#x73B0;&#xFF0C;&#x5305;&#x542B;&#x4E24;&#x6761;&#x6570;&#x636E;&#x4F20;&#x9001;&#x6307;&#x4EE4;&#x548C;&#x4E00;&#x6761;&#x8FD4;&#x56DE;&#x6307;&#x4EE4;&#xFF0C;&#x6839;&#x636E;&#x5BC4;&#x5B58;&#x5668;&#x4F7F;&#x7528;&#x7684;&#x60EF;&#x4F8B;&#xFF0C;&#x5BC4;&#x5B58;&#x5668;<code>%rdi</code>&#x548C;<code>%rsi</code>&#x5206;&#x522B;&#x7528;&#x6765;&#x4FDD;&#x5B58;&#x51FD;&#x6570;&#x4F20;&#x9012;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x548C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x56E0;&#x6B64;&#x5BC4;&#x5B58;&#x5668;<code>rdi</code>&#x4E2D;&#x4FDD;&#x5B58;&#x4E86;xp&#x7684;&#x503C;&#xFF0C;&#x5BC4;&#x5B58;&#x5668;<code>rsi</code>&#x4FDD;&#x5B58;&#x4E86;&#x53D8;&#x91CF;y&#x7684;&#x503C;&#xFF0C;&#x8FD9;&#x6BB5;&#x6C47;&#x7F16;&#x4EE3;&#x7801;&#x5E76;&#x6CA1;&#x6709;&#x663E;&#x5F0F;&#x5730;&#x5C06;&#x8FD9;&#x90E8;&#x5206;&#x8868;&#x793A;&#x51FA;&#x6765;&#xFF0C;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x4E00;&#x4E0B;&#xFF0C;&#x7B2C;&#x4E00;&#x6761;<code>mov</code>&#x6307;&#x4EE4;&#x4ECE;&#x5185;&#x5B58;&#x4E2D;&#x8BFB;&#x53D6;&#x6570;&#x636E;&#x653E;&#x5165;&#x5230;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5185;&#x5B58;&#x5730;&#x5740;&#x4FDD;&#x5B58;&#x5728;&#x5BC4;&#x5B58;&#x5668;<code>rdi</code>&#x4E2D;&#xFF0C;&#x76EE;&#x7684;&#x64CD;&#x4F5C;&#x6570;&#x662F;&#x5BC4;&#x5B58;&#x5668;<code>rax</code>,&#x7531;&#x4E8E;&#x6700;&#x540E;<code>exchange</code>&#x51FD;&#x6570;&#x9700;&#x8981;&#x8FD4;&#x56DE;&#x53D8;&#x91CF;x&#x7684;&#x503C;&#xFF0C;&#x6240;&#x4EE5;&#x8FD9;&#x91CC;&#x76F4;&#x63A5;&#x5C06;&#x53D8;&#x91CF;x&#x653E;&#x5165;&#x5BC4;&#x5B58;&#x5668;<code>rax</code>&#x4E2D;&#xFF0C;&#x7B2C;&#x4E8C;&#x6761;<code>mov</code>&#x6307;&#x4EE4;&#xFF0C;&#x5C06;&#x53D8;&#x91CF;y&#x7684;&#x503C;&#x5199;&#x5165;&#x5230;&#x5185;&#x5B58;&#x91CC;&#xFF0C;&#x53D8;&#x91CF;y&#x5B58;&#x50A8;&#x5728;&#x5BC4;&#x5B58;&#x5668;<code>rsi</code>&#x4E2D;&#xFF0C;&#x5185;&#x5B58;&#x5730;&#x5740;&#x4FDD;&#x5B58;&#x5728;&#x5BC4;&#x5B58;&#x5668;<code>rdi</code>&#x4E2D;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;xp&#x6307;&#x5411;&#x7684;&#x5185;&#x5B58;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;C&#x8BED;&#x8A00;&#x4E2D;&#x6240;&#x8C13;&#x7684;&#x6307;&#x9488;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x5730;&#x5740;&#x3002;</p>
+<p>&#x6B64;&#x5916;&#xFF0C;&#x8FD8;&#x6709;&#x4E24;&#x4E2A;&#x6570;&#x636E;&#x4F20;&#x9001;&#x6307;&#x4EE4;&#x9700;&#x8981;&#x501F;&#x52A9;&#x7A0B;&#x5E8F;&#x6808;&#x3002;&#x6808;&#x662F;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x901A;&#x8FC7;<code>push</code>&#x64CD;&#x4F5C;&#x628A;&#x6570;&#x636E;&#x538B;&#x5165;&#x6808;&#xFF0C;&#x901A;&#x8FC7;<code>pop</code>&#x64CD;&#x4F5C;&#x5220;&#x9664;&#x6570;&#x636E;&#x3002;</p>
+<p><img src="pic/image-20240619232002544.png" alt="image-20240619232002544" style="zoom:67%;"></p>
+<p><img src="pic/image-20240619232050691.png" alt="image-20240619232050691"></p>
+<p><img src="pic/image-20240619232136382.png" alt="image-20240619232136382" style="zoom:67%;"></p>
+<p>&#x6808;&#x5177;&#x6709;&#x4E00;&#x4E2A;&#x7279;&#x6027;&#xFF0C;<u><strong>&#x5C31;&#x662F;&#x5F39;&#x51FA;&#x7684;&#x6570;&#x636E;&#x6C38;&#x8FDC;&#x662F;&#x6700;&#x8FD1;&#x88AB;&#x538B;&#x5165;&#x7684;&#x4E14;&#x4ECD;&#x7136;&#x5728;&#x6808;&#x4E2D;</strong></u>&#xFF0C;&#x8FD9;&#x4E2A;&#x7A0B;&#x5E8F;&#x6808;&#x672C;&#x8D28;&#x662F;&#x5185;&#x5B58;&#x7684;&#x4E00;&#x4E2A;&#x533A;&#x57DF;&#xFF0C;&#x5728;&#x7B2C;&#x4E00;&#x7AE0;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x6F2B;&#x6E38;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x66FE;&#x5206;&#x6790;&#x8FC7;&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x65F6;&#x7684;&#x5185;&#x5B58;&#x5206;&#x5E03;&#x3002;&#x56FE;&#x4E2D;&#x7684;&#x8FD9;&#x4E2A;&#x533A;&#x57DF;&#x5C31;&#x662F;&#x7A0B;&#x5E8F;&#x6808;&#xFF0C;&#x6808;&#x7684;&#x589E;&#x957F;&#x65B9;&#x5411;&#x662F;&#x4ECE;&#x9AD8;&#x5730;&#x5740;&#x5411;&#x4F4E;&#x5730;&#x5740;&#x3002;<u><strong>&#x56E0;&#x6B64;&#xFF0C;&#x6808;&#x9876;&#x5143;&#x7D20;&#x662F;&#x6240;&#x6709;&#x6808;&#x4E2D;&#x5143;&#x7D20;&#x5730;&#x5740;&#x6700;&#x4F4E;&#x7684;</strong></u>&#xFF0C;&#x6839;&#x636E;&#x60EF;&#x4F8B;&#xFF0C;&#x6808;&#x662F;&#x5012;&#x8FC7;&#x6765;&#x753B;&#x7684;&#xFF0C;&#x6808;&#x9876;&#x5728;&#x5E95;&#x90E8;&#xFF0C;&#x6808;&#x5E95;&#x5728;&#x9876;&#x90E8;&#xFF0C;</p>
+<p><img src="pic/image-20240619232238741.png" alt="image-20240619232238741"></p>
+<p>&#x4F8B;&#x5982;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#x5BC4;&#x5B58;&#x5668;<code>rax</code>&#x5185;&#x5B58;&#x7684;&#x6570;&#x636E;0x123,&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>pushq %rax</code>&#x6307;&#x4EE4;&#x628A;&#x6570;&#x636E;&#x538B;&#x5165;&#x6808;&#x5185;&#xFF0C;&#x8BE5;&#x6307;&#x4EE4;&#x6267;&#x884C;&#x7684;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x5206;&#x89E3;&#x4E3A;&#x4E24;&#x6B65;&#xFF0C;&#x9996;&#x5148;&#x6307;&#x5411;&#x6808;&#x9876;&#x7684;&#x5BC4;&#x5B58;&#x5668;<code>rsp</code>&#x8FDB;&#x884C;&#x4E00;&#x4E2A;&#x51CF;&#x6CD5;&#x64CD;&#x4F5C;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x538B;&#x6808;&#x4E4B;&#x524D;&#xFF0C;&#x6808;&#x9876;&#x6307;&#x9488;<code>rsp</code>&#x6307;&#x5411;&#x6808;&#x9876;&#x4F4D;&#x7F6E;&#xFF0C;&#x6B64;&#x5904;&#x5730;&#x5740;&#x4E3A;0x108&#xFF0C;&#x538B;&#x6808;&#x7684;&#x7B2C;&#x4E00;&#x6B65;&#x5C31;&#x662F;&#x5BC4;&#x5B58;&#x5668;<code>rsp</code>&#x7684;&#x503C;&#x51CF;8&#xFF0C;&#x6B64;&#x65F6;&#x6307;&#x5411;&#x5185;&#x5B58;&#x5730;&#x5740;&#x662F;0x100&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x636E;&#x590D;&#x5236;&#x5230;&#x65B0;&#x7684;&#x6808;&#x9876;&#x5730;&#x5740;&#xFF0C;&#x6B64;&#x65F6;&#x5185;&#x5B58;&#x5730;&#x5740;0x100&#x5904;&#x5C06;&#x4FDD;&#x5B58;&#x5BC4;&#x5B58;&#x5668;<code>rax</code>&#x4E2D;&#x5B58;&#x50A8;&#x7684;&#x6570;&#x636E;0x123&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;<code>pushq</code>&#x6307;&#x4EE4;&#x7B49;&#x6548;&#x4E8E;</p>
+<pre><code class="lang-shell">sub $8, %rsp
+mov %rax, (%rsp)
+</code></pre>
+<p><img src="pic/image-20240619232432204.png" alt="image-20240619232432204" style="zoom:67%;"></p>
+<p>&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x7684;&#x533A;&#x522B;&#x662F;<code>pushq</code>&#x8FD9;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x53EA;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#xFF0C;&#x800C;&#x56FE;&#x4E2D;&#x7684;&#x8FD9;&#x4E24;&#x6761;&#x6307;&#x4EE4;&#x9700;&#x8981;8&#x4E2A;&#x5B57;&#x8282;&#x5B58;&#x50A8;&#xFF0C;<u><strong>&#x8BF4;&#x5230;&#x5E95;&#xFF0C;<code>push</code>&#x6307;&#x4EE4;&#x7684;&#x672C;&#x8D28;&#x8FD8;&#x662F;&#x5C06;&#x6570;&#x636E;&#x5199;&#x5165;&#x5230;&#x5185;&#x5B58;&#x4E2D;</strong></u>&#xFF0C;&#x90A3;&#x4E48;&#x4E0E;&#x4E4B;&#x76F8;&#x5BF9;&#x5E94;&#x7684;<code>pop</code>&#x6307;&#x4EE4;&#x5C31;&#x662F;&#x4ECE;&#x5185;&#x5B58;&#x4E2D;&#x8BFB;&#x53D6;&#x6570;&#x636E;&#xFF0C;&#x5E76;&#x4FEE;&#x6539;&#x6808;&#x9876;&#x6307;&#x9488;&#xFF0C;&#x4F8B;&#x5982;<code>popq %rbx</code>&#x5C31;&#x662F;&#x5C06;&#x6808;&#x9876;&#x4FDD;&#x5B58;&#x5230;&#x6570;&#x636E;&#x590D;&#x5236;&#x5230;&#x5BC4;&#x5B58;&#x5668;<code>rbx</code>&#x4E2D;&#xFF0C;<code>pop</code>&#x6307;&#x4EE4;&#x7684;&#x64CD;&#x4F5C;&#x4E5F;&#x53EF;&#x4EE5;&#x5206;&#x89E3;&#x4E3A;&#x4E24;&#x6B65;&#xFF0C;</p>
+<pre><code class="lang-shell">movq (%rsp), %rbx
+add $8, %rsp
+</code></pre>
+<p>&#x9996;&#x5148;&#x4ECE;&#x6808;&#x9876;&#x4F4D;&#x7F6E;&#x8BFB;&#x51FA;&#x6570;&#x636E;&#xFF0C;&#x590D;&#x5236;&#x5230;&#x5BC4;&#x5B58;&#x5668;<code>rbx</code>,&#x6B64;&#x65F6;&#x6808;&#x9876;&#x6307;&#x9488;<code>rsp</code>&#x6307;&#x5411;&#x7684;&#x5185;&#x5B58;&#x5730;&#x5740;&#x662F;<code>0x100</code>, &#x7136;&#x540E;&#x5C06;&#x6808;&#x9876;&#x6307;&#x9488;&#x52A0;8&#xFF0C;pop&#x540E;&#x6808;&#x9876;&#x6307;&#x9488;rsp&#x6307;&#x5411;&#x7684;&#x5185;&#x5B58;&#x5730;&#x5740;&#x662F;<code>0x108</code>, pop&#x540E;&#x6808;&#x9876;&#x6307;&#x9488;<code>rsp</code>&#x6307;&#x5411;&#x7684;&#x5730;&#x5740;&#x662F;0x108,&#x5B9E;&#x9645;&#x4E0A;<code>pop</code>&#x6307;&#x4EE4;&#x662F;&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x6808;&#x9876;&#x6307;&#x9488;&#x6240;&#x6307;&#x5411;&#x7684;&#x5185;&#x5B58;&#x5730;&#x5740;&#x6765;&#x5B9E;&#x73B0;&#x6570;&#x636E;&#x5220;&#x9664;&#x7684;&#xFF0C;&#x6B64;&#x65F6;&#x5185;&#x5B58;&#x5730;&#x5740;0x100&#x5185;&#x6240;&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x636E;0x123&#x4ECD;&#x7136;&#x5B58;&#x5728;&#xFF0C;</p>
+<p>&#x76F4;&#x5230;&#x4E0B;&#x6B21;<code>push</code>&#x64CD;&#x4F5C;&#xFF0C;&#x6B64;&#x5904;&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x503C;&#x624D;&#x4F1A;&#x88AB;&#x8986;&#x76D6;&#x3002;</p>
+<p><img src="pic/image-20240619232606817.png" alt="image-20240619232606817" style="zoom:67%;"> </p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; &#x7248;&#x6743;&#x4FE1;&#x606F; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2024-06-19 23:27:03
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="寄存器与数据传送指令.html" class="navigation navigation-prev " aria-label="Previous page: 第2节：寄存器与数据传送指令">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="算术和逻辑运算指令.html" class="navigation navigation-next " aria-label="Next page: 第4节：算术和逻辑运算指令">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第3节：栈与数据传送指令","level":"1.5.3","depth":2,"next":{"title":"第4节：算术和逻辑运算指令","level":"1.5.4","depth":2,"path":"Chapter3/算术和逻辑运算指令.md","ref":"Chapter3/算术和逻辑运算指令.md","articles":[]},"previous":{"title":"第2节：寄存器与数据传送指令","level":"1.5.2","depth":2,"path":"Chapter3/寄存器与数据传送指令.md","ref":"Chapter3/寄存器与数据传送指令.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","expandable-chapters-small","splitter","back-to-top-button","expandable-chapters-small","-sharing","github","code","page-toc-button","tbfed-pagefooter","rss","mathjax-pro"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy 版权信息","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/YGVICTOR/my_blog"},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":[],"title":"标题","description":"描述信息","author":"作者","feed_url":"https://xxx.xxx.xxx/rss","site_url":"https://xxx.xxx.xxx/"},"highlight":{},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"mathjax-pro":{"forceSVG":false,"version":"2.7.7"},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"作者","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"标题","language":"zh-hans","output.name":"site","gitbook":"3.2.3","description":"描述信息"},"file":{"path":"Chapter3/栈与数据传送指令.md","mtime":"2024-06-19T15:27:03.063Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-21T16:24:01.941Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-rss/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mathjax-pro/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
